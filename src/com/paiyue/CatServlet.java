@@ -53,6 +53,7 @@ public class CatServlet extends HttpServlet {
 
 	@Override
 	public void init() throws ServletException {
+		//测试======reset注释---CatServlet
 		super.init();
 		try {
 			Properties config = FileUtils.getConfig();
