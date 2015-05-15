@@ -39,7 +39,6 @@ public class TestServlet extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		//测试-------reset注释
 		Map<String, String[]> pMap = request.getParameterMap();
 		System.out.println("---rand---" + rand);
 		System.out.println("参数:");
