@@ -24,7 +24,7 @@ import com.paiyue.utils.StringConstants;
  * Servlet implementation class CatServlet
  */
 @Data
-@WebServlet(urlPatterns={"/CatServlet"}, loadOnStartup=5)
+//@WebServlet(urlPatterns={"/CatServlet"}, loadOnStartup=5)
 public class CatServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private DataSource dataSource;
